@@ -5,7 +5,6 @@ import json
 import os
 
 
-memes = (1,2)
 client = discord.Client()
 
 
@@ -111,4 +110,4 @@ async def on_ready():
     await client.change_presence(status=discord.Status.online, activity=discord.Game('teke apua'))
 
 
-client.run('NzY5MjgwMjIzNzk4NzU1MzM4.X5MuCQ.XTIhVaKpHZhIuxCPo1nHdKfCKy4')
+client.run('NzY5MjgwMjIzNzk4NzU1MzM4.X5MuCQ.zz8uxUW4LScOh2pgTUOo9G_d04Y')
