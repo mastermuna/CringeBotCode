@@ -102,6 +102,10 @@ async def on_message(message):
      if message.content == 'teke riisi':
          general_channel = client.get_channel(769272368161619998)
          await general_channel.send('mina olla riisifurmeri kiinasta')
+     if message.content == 'laske käyttis':
+        general_channel = client.get_channel(769272368161619998)
+         await general_channel.send("""Käyttiksiä tällä servulla:{id.member_count}""")
+        
 
 
 
@@ -110,4 +114,4 @@ async def on_ready():
     await client.change_presence(status=discord.Status.online, activity=discord.Game('teke apua'))
 
 
-client.run('NzY5MjgwMjIzNzk4NzU1MzM4.X5MuCQ.zz8uxUW4LScOh2pgTUOo9G_d04Y')
+client.run('NzY5MjgwMjIzNzk4NzU1MzM4.X5MuCQ.D_8y_wn-VWUu4AFfV4yZhbL595Y')
