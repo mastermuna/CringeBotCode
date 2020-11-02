@@ -102,9 +102,6 @@ async def on_message(message):
      if message.content == 'teke riisi':
          general_channel = client.get_channel(769272368161619998)
          await general_channel.send('mina olla riisifurmeri kiinasta')
-     if message.content == 'laske käyttis':
-        general_channel = client.get_channel(769272368161619998)
-         await general_channel.send("""Käyttiksiä tällä servulla:{id.member_count}""")
         
 
 
