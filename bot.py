@@ -111,4 +111,4 @@ async def on_ready():
     await client.change_presence(status=discord.Status.online, activity=discord.Game('teke apua'))
 
 
-client.run('769280223798755338')
+client.run('NzY5MjgwMjIzNzk4NzU1MzM4.X5MuCQ.01sKEoZq3gPRN2GVRUS4Tjv_TVo')
